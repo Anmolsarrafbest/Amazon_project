@@ -134,7 +134,33 @@ button{
     margin-bottom: 0px;
     padding-top: 8px;  
 }
-.images{
-    background-image: url("mainjpg.jpg");
+
+.herosec{
+    background-image: url("mainjpg.png");
     background-size: cover;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-msg{
+    height: 40px;
+    width: 95%;
+    background-color: #f5f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    margin-bottom: 120px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+#box1,#box2,#box3,#box4 {
+    height:420px;
+    width:306px;
+    background-color:#f5f6f6;
 }
